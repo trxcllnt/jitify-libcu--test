@@ -16,12 +16,10 @@
 
 #pragma once
 
+#include <limits>
 #define _LIBCUDACXX_USE_CXX20_CHRONO
 #define _LIBCUDACXX_USE_CXX17_TYPE_TRAITS
-
-#include <limits>
 #include <simt/chrono>
-#include <details/iterator>
 
 /**---------------------------------------------------------------------------*
  * @file timestamps.hpp
