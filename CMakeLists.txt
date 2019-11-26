@@ -26,6 +26,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} --expt-extended-lambda --expt-relaxed-constexpr -Xcompiler=-fPIC")
 
+add_definitions("-DJITIFY_PRINT_ALL=1")
+
 ###################################################################################################
 # - include paths ---------------------------------------------------------------------------------
 
