@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/ptaylor/dev/rapids/jitify-libcu++-test/build",
-  "command": "/usr/local/cuda/bin/nvcc   -I/home/ptaylor/dev/rapids/jitify-libcu++-test/thirdparty/jitify -I/home/ptaylor/dev/rapids/jitify-libcu++-test/thirdparty/libcudacxx/include   -Xcompiler=-fPIC   -std=c++14 --no-cuda-version-check -nocudalib -c /home/ptaylor/dev/rapids/jitify-libcu++-test/main.cu -o CMakeFiles/main.dir/main.cu.o",
+  "command": "/usr/local/cuda/bin/nvcc -I/usr/local/cuda/include -I/home/ptaylor/dev/rapids/jitify-libcu++-test/thirdparty/jitify -I/home/ptaylor/dev/rapids/jitify-libcu++-test/thirdparty/libcudacxx/include   -Xcompiler=-fPIC   -std=c++14 --no-cuda-version-check -nocudalib -c /home/ptaylor/dev/rapids/jitify-libcu++-test/main.cu -o CMakeFiles/main.dir/main.cu.o",
   "file": "/home/ptaylor/dev/rapids/jitify-libcu++-test/main.cu"
 }
 ]
